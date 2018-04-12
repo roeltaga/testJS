@@ -1,0 +1,90 @@
+@keyframes loading {
+	0%	{background-color: white;}
+	81%	{background-color: #5f5;}
+	100%{background-color: white;}
+}
+
+body {
+	font-family: sans-serif;
+	background-image: url(./bodyBG.jpg)
+	}
+
+h2 {
+	margin: 20px 0 0 0;
+	padding: 10px 0 0 8%;
+	color: #333;
+	font-size: 24px;
+}
+
+.info {
+	text-align: center;
+	font-size: 16px;
+	color: #333;
+	margin: 10px 0;
+	text-shadow: 0px 0px 4px rgba(0,0,0,0.3);
+}
+
+em {
+	color: #222;
+}
+
+input {
+	color: #333;
+	display: block;
+	padding: 8px;
+	margin: auto;
+	margin-bottom: 8px;
+	width: 84%;
+}
+
+input:focus {
+	border: solid 2px #00BDB6;
+	padding: 7px;
+}
+
+button{
+	display: block;
+	padding: 2px 22px;
+	font-size: 22px;
+	color: #FE2C31;
+	background-color: #23C9C3;
+	margin: auto;
+}
+
+button:active {
+	color: #FEADAF;
+	background-color: #00BDB6;
+}
+
+#mypar {
+	display: block;
+	width: 95%;
+	margin: auto;
+	margin-top: 8px;
+	padding: 8px;
+	font-size: 16px;
+	text-align: center;
+	background-color: white;
+	color: #333;
+    animation-duration: 2s;
+	border-radius: 18px;
+	box-shadow: 2px 8px 5px rgba(0,0,0,0.2);
+}
+
+@media screen and (min-width: 801px) { /*PC*/
+	.wrapper {margin: 0 180px;}
+	h2 {font-size: 28px;}
+	.info {font-size: 18px;}
+	input {font-size: 14px;}
+	button {font-size: 26px;}
+	#mypar {font-size: 18px;}
+}
+
+.mario {
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	background-color: rgba(150,200,250,0.4);
+	border-radius: 20px;
+	text-align: center;
+}
